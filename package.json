@@ -9,6 +9,7 @@
   "author": "Aakash Singh",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "nodemon": "^3.1.4"
   }
 }

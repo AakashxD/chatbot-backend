@@ -4,7 +4,7 @@ const connect=require("./database/connection")
 const userRouter =require('./router/index')
 const app=express();
 app.use(express.json()); 
-app.use('/create-user',userRouter)
+app.use('/api',userRouter)
 
 app.listen(PORT,()=>{
     connect().then(()=>{
